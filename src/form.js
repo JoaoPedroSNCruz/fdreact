@@ -9,7 +9,7 @@ function FeedbackForm() {
   namefield = useRef(null);
 
   return (
-      <form onSubmit={ saveFeedback }>
+      <form onSubmit={saveFeedback}>
           <label>
               Envie-nos seu feedback, dúvidas ou sugestões:<br />
               <textarea cols="50" rows="5" ref={feedbackfield} />
@@ -20,7 +20,7 @@ function FeedbackForm() {
               <input type="text" ref={namefield} />
           </label>
           <br /><br />
-          <input type="submit" value="Enviar" />
+          <input type="submit" value="ENVIAR" />
       </form>);
 }
 

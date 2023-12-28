@@ -12,7 +12,7 @@ const db = getFirestore(app);
 
 
 async function saveRegister (feedback) {
-  await addDoc(collection(db, "feedback"), feedback);
+  addDoc(collection(db, "feedback"), feedback);
 }
 
 export { saveRegister };
